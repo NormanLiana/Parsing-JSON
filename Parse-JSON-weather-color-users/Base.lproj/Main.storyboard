@@ -91,11 +91,11 @@
             </objects>
             <point key="canvasLocation" x="896" y="119"/>
         </scene>
-        <!--Item 1-->
+        <!--Weather-->
         <scene sceneID="l01-lR-ndJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zL8-Fj-bdX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="4JX-aw-VZi"/>
+                    <tabBarItem key="tabBarItem" title="Weather" id="4JX-aw-VZi" userLabel="Weather"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G8Q-m2-ned">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -172,11 +172,11 @@
             </objects>
             <point key="canvasLocation" x="3361" y="-550"/>
         </scene>
-        <!--Item 2-->
+        <!--Color-->
         <scene sceneID="vOj-N3-Qht">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WGn-nw-hms" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="k6N-ib-0nj"/>
+                    <tabBarItem key="tabBarItem" title="Color" id="k6N-ib-0nj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b5s-Qm-6Kg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -260,11 +260,11 @@
             </objects>
             <point key="canvasLocation" x="3361" y="848"/>
         </scene>
-        <!--Item-->
+        <!--Random User-->
         <scene sceneID="JeR-w0-EM5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rxT-Zp-6Qf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Rko-zg-jHS"/>
+                    <tabBarItem key="tabBarItem" title="Random User" id="Rko-zg-jHS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gc8-Dl-g9U">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
