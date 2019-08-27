@@ -13,6 +13,12 @@
 		A5545F242315AE2000B99A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */; };
 		A5545F2F2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F2E2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift */; };
 		A5545F3A2315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */; };
+		A5545F4E2315BC8B00B99A64 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F4D2315BC8B00B99A64 /* WeatherViewController.swift */; };
+		A5545F502315BCB400B99A64 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F4F2315BCB400B99A64 /* ColorViewController.swift */; };
+		A5545F522315BCD200B99A64 /* RandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F512315BCD200B99A64 /* RandomUserViewController.swift */; };
+		A5545F542315BCF800B99A64 /* DetailWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F532315BCF800B99A64 /* DetailWeatherViewController.swift */; };
+		A5545F562315BD1300B99A64 /* DetailColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F552315BD1300B99A64 /* DetailColorViewController.swift */; };
+		A5545F582315BD2C00B99A64 /* DetailRandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F572315BD2C00B99A64 /* DetailRandomUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		A5545F352315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse-JSON-weather-color-usersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_JSON_weather_color_usersUITests.swift; sourceTree = "<group>"; };
 		A5545F3B2315AE2000B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5545F4D2315BC8B00B99A64 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		A5545F4F2315BCB400B99A64 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		A5545F512315BCD200B99A64 /* RandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewController.swift; sourceTree = "<group>"; };
+		A5545F532315BCF800B99A64 /* DetailWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherViewController.swift; sourceTree = "<group>"; };
+		A5545F552315BD1300B99A64 /* DetailColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorViewController.swift; sourceTree = "<group>"; };
+		A5545F572315BD2C00B99A64 /* DetailRandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRandomUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A5545F192315AE1D00B99A64 /* AppDelegate.swift */,
+				A5545F592315BD3F00B99A64 /* Controllers */,
 				A5545F1D2315AE1D00B99A64 /* Main.storyboard */,
 				A5545F202315AE2000B99A64 /* Assets.xcassets */,
 				A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */,
@@ -120,6 +133,19 @@
 				A5545F3B2315AE2000B99A64 /* Info.plist */,
 			);
 			path = "Parse-JSON-weather-color-usersUITests";
+			sourceTree = "<group>";
+		};
+		A5545F592315BD3F00B99A64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5545F4D2315BC8B00B99A64 /* WeatherViewController.swift */,
+				A5545F4F2315BCB400B99A64 /* ColorViewController.swift */,
+				A5545F512315BCD200B99A64 /* RandomUserViewController.swift */,
+				A5545F532315BCF800B99A64 /* DetailWeatherViewController.swift */,
+				A5545F552315BD1300B99A64 /* DetailColorViewController.swift */,
+				A5545F572315BD2C00B99A64 /* DetailRandomUserViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5545F542315BCF800B99A64 /* DetailWeatherViewController.swift in Sources */,
+				A5545F522315BCD200B99A64 /* RandomUserViewController.swift in Sources */,
 				A5545F1A2315AE1D00B99A64 /* AppDelegate.swift in Sources */,
+				A5545F502315BCB400B99A64 /* ColorViewController.swift in Sources */,
+				A5545F4E2315BC8B00B99A64 /* WeatherViewController.swift in Sources */,
+				A5545F562315BD1300B99A64 /* DetailColorViewController.swift in Sources */,
+				A5545F582315BD2C00B99A64 /* DetailRandomUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
