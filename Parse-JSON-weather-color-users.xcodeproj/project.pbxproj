@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5545F1A2315AE1D00B99A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F192315AE1D00B99A64 /* AppDelegate.swift */; };
+		A5545F1C2315AE1D00B99A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F1B2315AE1D00B99A64 /* ViewController.swift */; };
+		A5545F1F2315AE1D00B99A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5545F1D2315AE1D00B99A64 /* Main.storyboard */; };
+		A5545F212315AE2000B99A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5545F202315AE2000B99A64 /* Assets.xcassets */; };
+		A5545F242315AE2000B99A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */; };
+		A5545F2F2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F2E2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift */; };
+		A5545F3A2315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5545F2B2315AE2000B99A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5545F0E2315AE1D00B99A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5545F152315AE1D00B99A64;
+			remoteInfo = "Parse-JSON-weather-color-users";
+		};
+		A5545F362315AE2000B99A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5545F0E2315AE1D00B99A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5545F152315AE1D00B99A64;
+			remoteInfo = "Parse-JSON-weather-color-users";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5545F162315AE1D00B99A64 /* Parse-JSON-weather-color-users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse-JSON-weather-color-users.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5545F192315AE1D00B99A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5545F1B2315AE1D00B99A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5545F1E2315AE1D00B99A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5545F202315AE2000B99A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5545F232315AE2000B99A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5545F252315AE2000B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5545F2A2315AE2000B99A64 /* Parse-JSON-weather-color-usersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse-JSON-weather-color-usersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5545F2E2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_JSON_weather_color_usersTests.swift; sourceTree = "<group>"; };
+		A5545F302315AE2000B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5545F352315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse-JSON-weather-color-usersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_JSON_weather_color_usersUITests.swift; sourceTree = "<group>"; };
+		A5545F3B2315AE2000B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5545F132315AE1D00B99A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F272315AE2000B99A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F322315AE2000B99A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5545F0D2315AE1D00B99A64 = {
+			isa = PBXGroup;
+			children = (
+				A5545F182315AE1D00B99A64 /* Parse-JSON-weather-color-users */,
+				A5545F2D2315AE2000B99A64 /* Parse-JSON-weather-color-usersTests */,
+				A5545F382315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests */,
+				A5545F172315AE1D00B99A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5545F172315AE1D00B99A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5545F162315AE1D00B99A64 /* Parse-JSON-weather-color-users.app */,
+				A5545F2A2315AE2000B99A64 /* Parse-JSON-weather-color-usersTests.xctest */,
+				A5545F352315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5545F182315AE1D00B99A64 /* Parse-JSON-weather-color-users */ = {
+			isa = PBXGroup;
+			children = (
+				A5545F192315AE1D00B99A64 /* AppDelegate.swift */,
+				A5545F1B2315AE1D00B99A64 /* ViewController.swift */,
+				A5545F1D2315AE1D00B99A64 /* Main.storyboard */,
+				A5545F202315AE2000B99A64 /* Assets.xcassets */,
+				A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */,
+				A5545F252315AE2000B99A64 /* Info.plist */,
+			);
+			path = "Parse-JSON-weather-color-users";
+			sourceTree = "<group>";
+		};
+		A5545F2D2315AE2000B99A64 /* Parse-JSON-weather-color-usersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5545F2E2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift */,
+				A5545F302315AE2000B99A64 /* Info.plist */,
+			);
+			path = "Parse-JSON-weather-color-usersTests";
+			sourceTree = "<group>";
+		};
+		A5545F382315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */,
+				A5545F3B2315AE2000B99A64 /* Info.plist */,
+			);
+			path = "Parse-JSON-weather-color-usersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5545F152315AE1D00B99A64 /* Parse-JSON-weather-color-users */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5545F3E2315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-users" */;
+			buildPhases = (
+				A5545F122315AE1D00B99A64 /* Sources */,
+				A5545F132315AE1D00B99A64 /* Frameworks */,
+				A5545F142315AE1D00B99A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parse-JSON-weather-color-users";
+			productName = "Parse-JSON-weather-color-users";
+			productReference = A5545F162315AE1D00B99A64 /* Parse-JSON-weather-color-users.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5545F292315AE2000B99A64 /* Parse-JSON-weather-color-usersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5545F412315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-usersTests" */;
+			buildPhases = (
+				A5545F262315AE2000B99A64 /* Sources */,
+				A5545F272315AE2000B99A64 /* Frameworks */,
+				A5545F282315AE2000B99A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5545F2C2315AE2000B99A64 /* PBXTargetDependency */,
+			);
+			name = "Parse-JSON-weather-color-usersTests";
+			productName = "Parse-JSON-weather-color-usersTests";
+			productReference = A5545F2A2315AE2000B99A64 /* Parse-JSON-weather-color-usersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5545F342315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5545F442315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-usersUITests" */;
+			buildPhases = (
+				A5545F312315AE2000B99A64 /* Sources */,
+				A5545F322315AE2000B99A64 /* Frameworks */,
+				A5545F332315AE2000B99A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5545F372315AE2000B99A64 /* PBXTargetDependency */,
+			);
+			name = "Parse-JSON-weather-color-usersUITests";
+			productName = "Parse-JSON-weather-color-usersUITests";
+			productReference = A5545F352315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5545F0E2315AE1D00B99A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Liana Norman";
+				TargetAttributes = {
+					A5545F152315AE1D00B99A64 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A5545F292315AE2000B99A64 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A5545F152315AE1D00B99A64;
+					};
+					A5545F342315AE2000B99A64 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A5545F152315AE1D00B99A64;
+					};
+				};
+			};
+			buildConfigurationList = A5545F112315AE1D00B99A64 /* Build configuration list for PBXProject "Parse-JSON-weather-color-users" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5545F0D2315AE1D00B99A64;
+			productRefGroup = A5545F172315AE1D00B99A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5545F152315AE1D00B99A64 /* Parse-JSON-weather-color-users */,
+				A5545F292315AE2000B99A64 /* Parse-JSON-weather-color-usersTests */,
+				A5545F342315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5545F142315AE1D00B99A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5545F242315AE2000B99A64 /* LaunchScreen.storyboard in Resources */,
+				A5545F212315AE2000B99A64 /* Assets.xcassets in Resources */,
+				A5545F1F2315AE1D00B99A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F282315AE2000B99A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F332315AE2000B99A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5545F122315AE1D00B99A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5545F1C2315AE1D00B99A64 /* ViewController.swift in Sources */,
+				A5545F1A2315AE1D00B99A64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F262315AE2000B99A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5545F2F2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5545F312315AE2000B99A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5545F3A2315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5545F2C2315AE2000B99A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5545F152315AE1D00B99A64 /* Parse-JSON-weather-color-users */;
+			targetProxy = A5545F2B2315AE2000B99A64 /* PBXContainerItemProxy */;
+		};
+		A5545F372315AE2000B99A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5545F152315AE1D00B99A64 /* Parse-JSON-weather-color-users */;
+			targetProxy = A5545F362315AE2000B99A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5545F1D2315AE1D00B99A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5545F1E2315AE1D00B99A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5545F232315AE2000B99A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5545F3C2315AE2000B99A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5545F3D2315AE2000B99A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5545F3F2315AE2000B99A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-users/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-users";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5545F402315AE2000B99A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-users/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-users";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5545F422315AE2000B99A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-usersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-usersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parse-JSON-weather-color-users.app/Parse-JSON-weather-color-users";
+			};
+			name = Debug;
+		};
+		A5545F432315AE2000B99A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-usersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-usersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parse-JSON-weather-color-users.app/Parse-JSON-weather-color-users";
+			};
+			name = Release;
+		};
+		A5545F452315AE2000B99A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-usersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-usersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parse-JSON-weather-color-users";
+			};
+			name = Debug;
+		};
+		A5545F462315AE2000B99A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse-JSON-weather-color-usersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit-Projects.Parse-JSON-weather-color-usersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parse-JSON-weather-color-users";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5545F112315AE1D00B99A64 /* Build configuration list for PBXProject "Parse-JSON-weather-color-users" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5545F3C2315AE2000B99A64 /* Debug */,
+				A5545F3D2315AE2000B99A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5545F3E2315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-users" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5545F3F2315AE2000B99A64 /* Debug */,
+				A5545F402315AE2000B99A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5545F412315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-usersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5545F422315AE2000B99A64 /* Debug */,
+				A5545F432315AE2000B99A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5545F442315AE2000B99A64 /* Build configuration list for PBXNativeTarget "Parse-JSON-weather-color-usersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5545F452315AE2000B99A64 /* Debug */,
+				A5545F462315AE2000B99A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5545F0E2315AE1D00B99A64 /* Project object */;
+}
