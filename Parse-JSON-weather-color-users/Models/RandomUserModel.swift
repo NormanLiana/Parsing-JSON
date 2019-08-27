@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+enum JSONError: Error {
+    case decodingError(Error)
+}
+
+struct User: Codable {
+    let name: NameWrapper
+    let email: String
+    let location: LocationWrapper
+    let phone: String
+    let dob: String
+}
+
+struct NameWrapper: Codable {
+    let first: String
+    let last: String
+}
+
+struct LocationWrapper: Codable {
+    let street: String
+    let city: String
+    let state: String
+//    let postcode: Int
+}

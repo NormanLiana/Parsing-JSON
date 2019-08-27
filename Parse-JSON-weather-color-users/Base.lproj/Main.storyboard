@@ -240,6 +240,9 @@
                         <viewLayoutGuide key="safeArea" id="eCi-27-M68"/>
                     </view>
                     <navigationItem key="navigationItem" id="z2n-RD-QhE"/>
+                    <connections>
+                        <outlet property="randomUserTableView" destination="8Dj-Yt-ZVd" id="GXB-hH-Hn8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qar-1I-ezO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
