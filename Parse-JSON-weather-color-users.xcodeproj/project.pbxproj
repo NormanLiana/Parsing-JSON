@@ -14,6 +14,9 @@
 		A5545F242315AE2000B99A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */; };
 		A5545F2F2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F2E2315AE2000B99A64 /* Parse_JSON_weather_color_usersTests.swift */; };
 		A5545F3A2315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */; };
+		A5545F482315B5E900B99A64 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F472315B5E900B99A64 /* WeatherViewController.swift */; };
+		A5545F4A2315B62F00B99A64 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F492315B62F00B99A64 /* ColorViewController.swift */; };
+		A5545F4C2315B66C00B99A64 /* RandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545F4B2315B66C00B99A64 /* RandomUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A5545F352315AE2000B99A64 /* Parse-JSON-weather-color-usersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse-JSON-weather-color-usersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5545F392315AE2000B99A64 /* Parse_JSON_weather_color_usersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_JSON_weather_color_usersUITests.swift; sourceTree = "<group>"; };
 		A5545F3B2315AE2000B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5545F472315B5E900B99A64 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		A5545F492315B62F00B99A64 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = SOURCE_ROOT; };
+		A5545F4B2315B66C00B99A64 /* RandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				A5545F192315AE1D00B99A64 /* AppDelegate.swift */,
 				A5545F1B2315AE1D00B99A64 /* ViewController.swift */,
 				A5545F1D2315AE1D00B99A64 /* Main.storyboard */,
+				A5545F4B2315B66C00B99A64 /* RandomUserViewController.swift */,
+				A5545F492315B62F00B99A64 /* ColorViewController.swift */,
+				A5545F472315B5E900B99A64 /* WeatherViewController.swift */,
 				A5545F202315AE2000B99A64 /* Assets.xcassets */,
 				A5545F222315AE2000B99A64 /* LaunchScreen.storyboard */,
 				A5545F252315AE2000B99A64 /* Info.plist */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5545F1C2315AE1D00B99A64 /* ViewController.swift in Sources */,
+				A5545F4C2315B66C00B99A64 /* RandomUserViewController.swift in Sources */,
+				A5545F482315B5E900B99A64 /* WeatherViewController.swift in Sources */,
+				A5545F4A2315B62F00B99A64 /* ColorViewController.swift in Sources */,
 				A5545F1A2315AE1D00B99A64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
