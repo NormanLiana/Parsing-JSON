@@ -17,17 +17,39 @@ struct User: Codable {
     let email: String
     let location: LocationWrapper
     let phone: String
-    let dob: String
+    let dob: DateOfBirth
+    
+    static func getUsers(from data: Data) throws -> [User] {
+        do {
+            let users = try
+                JSONDecoder().decode([User].self, from: data)
+            return users
+        } catch {
+            throw JSONError.decodingError(error)
+        }
+    }
 }
 
 struct NameWrapper: Codable {
     let first: String
     let last: String
+    
+    func fullyNamed() -> String {
+        return "\(first) \(last)"
+    }
 }
 
 struct LocationWrapper: Codable {
     let street: String
     let city: String
     let state: String
-//    let postcode: Int
+    let postcode: Int
+    
+    func fullAddress() -> String {
+        return "\(street) \(city), \(state) \(postcode)"
+    }
+}
+
+struct DateOfBirth: Codable {
+    let date: String
 }
