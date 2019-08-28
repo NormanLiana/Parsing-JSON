@@ -13,6 +13,8 @@ class DetailColorViewController: UIViewController {
     @IBOutlet weak var hexLabel: UILabel!
     @IBOutlet weak var rgbLabel: UILabel!
     
+    var color: Color!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -22,6 +22,18 @@ class ColorViewController: UIViewController {
         print(colors)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToDetailColor" {
+            guard let detailColorVC = segue.destination as? DetailColorViewController else {
+                fatalError()
+            }
+            guard let selectedIndexPath = colorTableView.indexPathForSelectedRow else {
+                fatalError()
+            }
+            detailColorVC.color = colors[selectedIndexPath.row]
+        }
+    }
+    
     private func loadData() {
         guard let pathToJSONFile = Bundle.main.path(forResource: "Color", ofType: "json") else {
             fatalError("Couldn't find JSON File")
@@ -35,6 +47,7 @@ class ColorViewController: UIViewController {
             print(error)
         }
     }
+    
     
 }
 
