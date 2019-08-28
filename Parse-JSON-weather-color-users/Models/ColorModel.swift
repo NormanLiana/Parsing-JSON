@@ -8,21 +8,26 @@
 
 import Foundation
 
+struct ColorArray: Codable {
+    var colors: [Color]
+    
+}
 
 struct Color: Codable {
     let name: ColorNameWrapper
-    let hex: String
+    let hex: HexWrapper
     let rgb: rgbWrapper
     
     static func getColors(from data: Data) throws -> [Color] {
         do {
             let colors = try
-                JSONDecoder().decode([Color].self, from: data)
-            return colors
+                JSONDecoder().decode(ColorArray.self, from: data)
+            return colors.colors
         } catch {
             throw JSONError.decodingError(error)
         }
     }
+
 }
 
 struct rgbWrapper: Codable {
@@ -36,5 +41,9 @@ struct FractionWrapper: Codable {
 }
 
 struct ColorNameWrapper: Codable {
+    let value: String
+}
+
+struct HexWrapper: Codable {
     let value: String
 }

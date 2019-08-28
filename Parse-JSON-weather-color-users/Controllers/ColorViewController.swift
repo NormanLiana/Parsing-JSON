@@ -18,6 +18,22 @@ class ColorViewController: UIViewController {
         super.viewDidLoad()
         colorTableView.dataSource = self
         colorTableView.delegate = self
+        loadData()
+        print(colors)
+    }
+    
+    private func loadData() {
+        guard let pathToJSONFile = Bundle.main.path(forResource: "Color", ofType: "json") else {
+            fatalError("Couldn't find JSON File")
+        }
+        let url = URL(fileURLWithPath: pathToJSONFile)
+        do {
+            let data = try Data(contentsOf: url)
+            let colorsFromJSON = try Color.getColors(from: data)
+            colors = colorsFromJSON
+        } catch {
+            print(error)
+        }
     }
     
 }
@@ -28,7 +44,11 @@ extension ColorViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell =
+        let cell = tableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath)
+        let color = colors[indexPath.row]
+        cell.textLabel?.text = color.name.value
+        cell.backgroundColor = UIColor(red: CGFloat(color.rgb.fraction.r), green: CGFloat(color.rgb.fraction.g), blue: CGFloat(color.rgb.fraction.b), alpha: 1.0)
+        return cell
     }
     
     
