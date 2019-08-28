@@ -13,6 +13,16 @@ struct Color: Codable {
     let name: ColorNameWrapper
     let hex: String
     let rgb: rgbWrapper
+    
+    static func getColors(from data: Data) throws -> [Color] {
+        do {
+            let colors = try
+                JSONDecoder().decode([Color].self, from: data)
+            return colors
+        } catch {
+            throw JSONError.decodingError(error)
+        }
+    }
 }
 
 struct rgbWrapper: Codable {

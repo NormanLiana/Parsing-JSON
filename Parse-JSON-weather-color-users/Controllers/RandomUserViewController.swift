@@ -20,13 +20,10 @@ class RandomUserViewController: UIViewController {
         randomUserTableView.dataSource = self
         randomUserTableView.delegate = self
         loadData()
-
-        // Do any additional setup after loading the view.
     }
     private func loadData() {
         guard let pathToJSONFile = Bundle.main.path(forResource: "RandomUsers", ofType: "json") else {
             fatalError("Couldn't find JSON File")
-            // episodes = whatever we decode from the JSON file
         }
         let url = URL(fileURLWithPath: pathToJSONFile)
         do {
