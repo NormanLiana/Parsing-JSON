@@ -91,7 +91,7 @@
                     </view>
                     <connections>
                         <outlet property="hexLabel" destination="usA-zk-ssC" id="697-02-dNo"/>
-                        <outlet property="rgbLabel" destination="7Id-Im-FEU" id="U66-pa-bLy"/>
+                        <outlet property="redLabel" destination="7Id-Im-FEU" id="U66-pa-bLy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6xq-T7-chh" userLabel="First Responder" sceneMemberID="firstResponder"/>
