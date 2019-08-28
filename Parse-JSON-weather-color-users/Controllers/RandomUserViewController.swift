@@ -34,20 +34,22 @@ class RandomUserViewController: UIViewController {
             let randomUsersFromJSON = try User.getUsers(from: data)
             users = randomUsersFromJSON
         } catch {
-            fatalError("Couldn't get episodes from JSON")
+            print(error)
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "segueToDetailUser" {
+            guard let detailUserVC = segue.destination as? DetailRandomUserViewController else {
+                fatalError()
+            }
+            guard let selectedIndexPath = randomUserTableView.indexPathForSelectedRow else {
+                fatalError()
+            }
+            detailUserVC.user = users[selectedIndexPath.row]
     }
-    */
-
+}
+    
 }
 
 extension RandomUserViewController: UITableViewDataSource {

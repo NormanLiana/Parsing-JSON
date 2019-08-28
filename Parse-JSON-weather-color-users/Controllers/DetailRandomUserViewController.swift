@@ -9,22 +9,24 @@
 import UIKit
 
 class DetailRandomUserViewController: UIViewController {
+    
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var dateOfBirthLabel: UILabel!
+    
+    var user: User!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpViews()
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setUpViews() {
+        phoneLabel.text = user.phone
+        addressLabel.text = user.location.fullAddress()
+        dateOfBirthLabel.text = user.dob.date
     }
-    */
 
 }

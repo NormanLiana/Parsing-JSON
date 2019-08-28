@@ -43,10 +43,10 @@ struct LocationWrapper: Codable {
     let street: String
     let city: String
     let state: String
-    let postcode: Int
+   // let postcode: Int
     
     func fullAddress() -> String {
-        return "\(street) \(city), \(state) \(postcode)"
+        return "\(street) \(city), \(state)"
     }
 }
 
