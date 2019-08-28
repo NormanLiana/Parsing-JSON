@@ -12,7 +12,8 @@ class DetailColorViewController: UIViewController {
     
     @IBOutlet weak var hexLabel: UILabel!
     @IBOutlet weak var redLabel: UILabel!
-    
+    @IBOutlet weak var greenLabel: UILabel!
+    @IBOutlet weak var blueLabel: UILabel!
     
     var color: Color!
     
@@ -23,7 +24,9 @@ class DetailColorViewController: UIViewController {
     
     func setUpViews() {
         hexLabel.text = color.hex.value
-        redLabel.text = "Red: \(color.rgb.fraction.r), Green: \(color.rgb.fraction.g), Blue: \(color.rgb.fraction.b)"
+        redLabel.text = "Red: \(color.rgb.fraction.r)"
+        greenLabel.text = "Green: \(color.rgb.fraction.g)"
+        blueLabel.text = "Blue: \(color.rgb.fraction.b)"
     }
 
 }
