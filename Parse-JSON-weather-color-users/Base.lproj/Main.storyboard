@@ -394,12 +394,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="dkY-1u-O7I" firstAttribute="centerX" secondItem="442-dD-sAO" secondAttribute="centerX" id="6Yo-Ya-JeP"/>
+                            <constraint firstItem="rdO-Lh-ajV" firstAttribute="centerX" secondItem="442-dD-sAO" secondAttribute="centerX" id="8nP-u3-PnC"/>
                             <constraint firstItem="MP9-Ga-hb1" firstAttribute="bottom" secondItem="rdO-Lh-ajV" secondAttribute="bottom" constant="329" id="Bk7-CG-y4f"/>
-                            <constraint firstItem="dkY-1u-O7I" firstAttribute="leading" secondItem="MP9-Ga-hb1" secondAttribute="leading" constant="20" id="Nf0-vQ-6Xb"/>
-                            <constraint firstItem="rdO-Lh-ajV" firstAttribute="leading" secondItem="MP9-Ga-hb1" secondAttribute="leading" constant="20" id="cCF-tE-UFi"/>
-                            <constraint firstItem="pzR-wa-chB" firstAttribute="leading" secondItem="MP9-Ga-hb1" secondAttribute="leading" constant="20" id="cI9-c5-8JK"/>
                             <constraint firstItem="pzR-wa-chB" firstAttribute="top" secondItem="dkY-1u-O7I" secondAttribute="bottom" constant="58" id="kAa-oE-6Ae"/>
                             <constraint firstItem="dkY-1u-O7I" firstAttribute="top" secondItem="MP9-Ga-hb1" secondAttribute="top" constant="130" id="lsC-w5-etj"/>
+                            <constraint firstItem="pzR-wa-chB" firstAttribute="centerX" secondItem="442-dD-sAO" secondAttribute="centerX" id="siZ-mm-gd5"/>
                             <constraint firstItem="rdO-Lh-ajV" firstAttribute="top" secondItem="pzR-wa-chB" secondAttribute="bottom" constant="58" id="xIX-UB-plV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MP9-Ga-hb1"/>
