@@ -10,12 +10,6 @@ import Foundation
 
 struct WeatherArray: Codable {
     let list: [City]
-}
-
-struct City: Codable {
-    let name: String
-    let main: MainWrapper
-    let weather: WeatherWrapper
     
     static func getCities(from data: Data) throws -> [City] {
         do {
@@ -26,6 +20,16 @@ struct City: Codable {
             throw JSONError.decodingError(error)
         }
     }
+    
+}
+
+struct City: Codable {
+    let name: String
+    let main: MainWrapper
+    let weather: [WeatherWrapper]
+    
+    
+    
 }
 
 struct MainWrapper: Codable {

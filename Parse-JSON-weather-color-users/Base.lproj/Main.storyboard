@@ -194,6 +194,9 @@
                         <viewLayoutGuide key="safeArea" id="vlb-0d-rcL"/>
                     </view>
                     <navigationItem key="navigationItem" id="GrW-8V-vHG"/>
+                    <connections>
+                        <outlet property="weatherTableView" destination="ldB-9w-6aQ" id="iem-dK-tWQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zU-aB-0X8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
