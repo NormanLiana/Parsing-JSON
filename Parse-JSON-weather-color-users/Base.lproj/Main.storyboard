@@ -114,13 +114,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7Id-Im-FEU" firstAttribute="leading" secondItem="3TQ-QU-bxL" secondAttribute="leading" constant="103" id="5rg-5m-KZV"/>
+                            <constraint firstItem="7Id-Im-FEU" firstAttribute="centerX" secondItem="2Qt-C9-D0B" secondAttribute="centerX" id="0yv-mH-Yen"/>
+                            <constraint firstItem="usA-zk-ssC" firstAttribute="centerX" secondItem="2Qt-C9-D0B" secondAttribute="centerX" id="14s-pn-sYa"/>
                             <constraint firstItem="0iV-Du-REs" firstAttribute="top" secondItem="ISk-Jz-mXt" secondAttribute="bottom" constant="36" id="9eP-pd-pq2"/>
                             <constraint firstItem="ISk-Jz-mXt" firstAttribute="top" secondItem="7Id-Im-FEU" secondAttribute="bottom" constant="36" id="CAx-n9-BHs"/>
-                            <constraint firstItem="0iV-Du-REs" firstAttribute="leading" secondItem="3TQ-QU-bxL" secondAttribute="leading" constant="103" id="Lc7-JD-GQB"/>
                             <constraint firstItem="usA-zk-ssC" firstAttribute="top" secondItem="3TQ-QU-bxL" secondAttribute="top" constant="154" id="Nlj-3K-Cob"/>
-                            <constraint firstItem="ISk-Jz-mXt" firstAttribute="leading" secondItem="3TQ-QU-bxL" secondAttribute="leading" constant="103" id="cSL-Qu-eab"/>
-                            <constraint firstItem="usA-zk-ssC" firstAttribute="leading" secondItem="3TQ-QU-bxL" secondAttribute="leading" constant="103" id="nqp-pJ-e2p"/>
+                            <constraint firstItem="0iV-Du-REs" firstAttribute="centerX" secondItem="2Qt-C9-D0B" secondAttribute="centerX" id="YOS-dD-kOs"/>
+                            <constraint firstItem="ISk-Jz-mXt" firstAttribute="centerX" secondItem="2Qt-C9-D0B" secondAttribute="centerX" id="cDS-1M-XkA"/>
                             <constraint firstItem="7Id-Im-FEU" firstAttribute="top" secondItem="usA-zk-ssC" secondAttribute="bottom" constant="117" id="zHF-SF-XnV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3TQ-QU-bxL"/>
