@@ -8,4 +8,31 @@
 
 import Foundation
 
+struct WeatherArray: Codable {
+    let list: [City]
+}
+
+struct City: Codable {
+    let name: String
+    let main: MainWrapper
+    let weather: WeatherWrapper
+    
+    static func getCities(from data: Data) throws -> [City] {
+        do {
+            let cities = try
+                JSONDecoder().decode(WeatherArray.self, from: data)
+            return cities.list
+        } catch {
+            throw JSONError.decodingError(error)
+        }
+    }
+}
+
+struct MainWrapper: Codable {
+    let temp: Double
+}
+
+struct WeatherWrapper: Codable {
+    let description: String
+}
 
