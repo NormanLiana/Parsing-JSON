@@ -35,6 +35,17 @@ class WeatherViewController: UIViewController {
         }
     }
    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToDetailWeather" {
+            guard let detailWeatherVC = segue.destination as? DetailWeatherViewController else {
+                fatalError()
+            }
+            guard let selectedIndexPath = weatherTableView.indexPathForSelectedRow else {
+                fatalError()
+            }
+            detailWeatherVC.cityWeather = weatherModel[selectedIndexPath.row]
+        }
+    }
 
 }
 

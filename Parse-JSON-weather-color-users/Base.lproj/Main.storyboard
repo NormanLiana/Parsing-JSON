@@ -180,6 +180,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="h7r-ca-gff" kind="show" identifier="segueToDetailWeather" id="8tj-C4-pYm"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

@@ -10,6 +10,8 @@ import UIKit
 
 class DetailWeatherViewController: UIViewController {
 
+    var cityWeather: City!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

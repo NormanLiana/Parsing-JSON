@@ -19,7 +19,6 @@ class ColorViewController: UIViewController {
         colorTableView.dataSource = self
         colorTableView.delegate = self
         loadData()
-        print(colors)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -47,8 +46,7 @@ class ColorViewController: UIViewController {
             print(error)
         }
     }
-    
-    
+
 }
 
 extension ColorViewController: UITableViewDataSource {
